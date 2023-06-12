@@ -1,3 +1,6 @@
-./Client/build
+# git ignore the builds file inside ./Client and ./Server folders
+# git ignore the .vscode folder
 
+./Client/build
 ./Server/build
+.vscode
