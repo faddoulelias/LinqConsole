@@ -18,7 +18,6 @@ ClientConnection::ClientConnection(std::string ip, int port)
 
 ClientConnection::~ClientConnection() = default;
 
-// Only handles the connection to the server phase
 void ClientConnection::connectToServer()
 {
     int clientSocket, ret;
